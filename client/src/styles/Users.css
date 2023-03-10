@@ -1,0 +1,41 @@
+:root {
+  --text-color: #303633;
+}
+
+.users__wrapper {
+  overflow: hidden;
+  height: auto;
+  color: var(--text-color);
+}
+
+.users__wrapper .users__row {
+  overflow: inherit;
+  height: inherit;
+}
+
+.users__wrapper .users__row .users__col {
+  padding: 2em 5em;
+  overflow: hidden;
+  min-height: 73.3vh;
+}
+
+.rdt_TableCol,
+.rdt_TableCell {
+  display: flex;
+  justify-content: center;
+  background-color: #fefae0;
+}
+
+@media screen and (max-width: 476px) {
+  .users__wrapper .users__row .users__col {
+    padding: 2em 3em;
+    overflow: hidden;
+    min-height: 78.1vh;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .users__wrapper .users__row .users__col {
+    min-height: 78.3vh;
+  }
+}

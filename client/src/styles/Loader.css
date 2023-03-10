@@ -1,0 +1,31 @@
+.loader__wrapper {
+  overflow: hidden;
+  height: auto;
+}
+
+.loader__wrapper .loader__row {
+  overflow: inherit;
+  height: inherit;
+}
+
+.loader__wrapper .loader__row .loader__col {
+  overflow: inherit;
+  min-height: 73.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 5em;
+}
+
+@media screen and (max-width: 476px) {
+  .loader__wrapper .loader__row .loader__col {
+    min-height: 78.1vh;
+    padding: 2em 3em;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .loader__wrapper .loader__row .loader__col {
+    min-height: 78.3vh;
+  }
+}

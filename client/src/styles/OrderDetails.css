@@ -1,0 +1,62 @@
+:root {
+  --text-color: #303633;
+}
+
+.details__wrapper {
+  overflow: hidden;
+  height: auto;
+  color: var(--text-color);
+}
+
+.details__wrapper .details__row__wrapper {
+  overflow: inherit;
+  height: inherit;
+}
+
+.details__wrapper .details__row__wrapper .details__col__wrapper {
+  overflow: inherit;
+  padding: 2em 5em;
+  min-height: 73.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.details__wrapper
+  .details__row__wrapper
+  .details__col__wrapper
+  .details__card__wrapper {
+  overflow: inherit;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  background-color: #fefae0;
+}
+
+@media screen and (max-width: 476px) {
+  .details__wrapper .details__row__wrapper .details__col__wrapper {
+    padding: 2em 3em;
+    min-height: 78.1vh;
+  }
+
+  .details__wrapper
+    .details__row__wrapper
+    .details__col__wrapper
+    .details__card__wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .details__wrapper .details__row__wrapper .details__col__wrapper {
+    min-height: 78.3vh;
+  }
+
+  .details__wrapper
+    .details__row__wrapper
+    .details__col__wrapper
+    .details__card__wrapper {
+    width: 100%;
+  }
+}

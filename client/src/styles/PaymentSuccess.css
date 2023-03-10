@@ -1,0 +1,72 @@
+:root {
+  --text-color: #303633;
+}
+
+.success__wrapper {
+  overflow: hidden;
+  height: auto;
+}
+
+.success__row {
+  overflow: inherit;
+  height: inherit;
+}
+
+.success__wrapper .success__row .success__col {
+  min-height: 73.3vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 3em;
+  padding: 2em 5em;
+}
+
+.success__wrapper .success__row .success__col .success__heading {
+  color: var(--text-color);
+  overflow: hidden;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.success__wrapper .success__row .success__col .success__info {
+  overflow: hidden;
+  color: var(--text-color);
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.success__wrapper .success__row .success__col .success__orders {
+  overflow: hidden;
+  width: 12%;
+}
+
+.success__wrapper .success__row .success__col .success__orders button {
+  width: 100%;
+}
+
+@media screen and (max-width: 476px) {
+  .success__wrapper .success__row .success__col {
+    min-height: 78vh;
+    padding: 2em 3em;
+  }
+
+  .success__wrapper .success__row .success__col .success__heading {
+    font-size: 2.5em;
+  }
+
+  .success__wrapper .success__row .success__col .success__orders {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .success__wrapper .success__row .success__col {
+    min-height: 78.5vh;
+  }
+
+  .success__wrapper .success__row .success__col .success__orders {
+    width: 25%;
+  }
+}

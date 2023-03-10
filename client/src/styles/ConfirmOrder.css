@@ -1,0 +1,133 @@
+:root {
+  --color: #303633;
+}
+
+.confirmOrder__wrapper {
+  overflow: hidden;
+  height: auto;
+}
+
+.confirmOrder__wrapper .confirmOrder__row__wrapper {
+  overflow: inherit;
+  height: inherit;
+}
+
+.confirmOrder__wrapper .confirmOrder__row__wrapper .confirmOrder__heading {
+  padding: 1em 3em;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  overflow: hidden;
+}
+
+.confirmOrder__wrapper .confirmOrder__row__wrapper .confirmOrder__heading h3 {
+  color: var(--color);
+}
+
+.confirmOrder__wrapper
+  .confirmOrder__row__wrapper
+  .confirmOrder__column__wrapper {
+  min-height: 47.3vh;
+  padding: 2em 5em;
+  overflow: hidden;
+}
+
+.confirmOrder__wrapper
+  .confirmOrder__row__wrapper
+  .confirmOrder__column__wrapper
+  .shipping__form__selection {
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  row-gap: 3em;
+}
+
+.confirmOrder__wrapper
+  .confirmOrder__row__wrapper
+  .confirmOrder__column__wrapper
+  .shipping__form__selection
+  .shipping__form__select {
+  display: inherit;
+  column-gap: 3em;
+}
+
+.confirmOrder__wrapper
+  .confirmOrder__row__wrapper
+  .confirmOrder__column__wrapper
+  .shipping__form__selection
+  .shipping__form__btn {
+  overflow: hidden;
+  width: 12%;
+}
+
+.confirmOrder__wrapper
+  .confirmOrder__row__wrapper
+  .confirmOrder__column__wrapper
+  .shipping__form__selection
+  .shipping__form__btn
+  button {
+  width: 100%;
+}
+
+@media screen and (max-width: 476px) {
+  .confirmOrder__wrapper .confirmOrder__row__wrapper .confirmOrder__heading {
+    font-size: 2.5em;
+  }
+
+  .confirmOrder__wrapper
+    .confirmOrder__row__wrapper
+    .confirmOrder__column__wrapper {
+    min-height: 51.9vh;
+  }
+
+  .confirmOrder__wrapper
+    .confirmOrder__row__wrapper
+    .confirmOrder__column__wrapper {
+    padding: 2em 3em;
+  }
+
+  .confirmOrder__wrapper
+    .confirmOrder__row__wrapper
+    .confirmOrder__column__wrapper
+    .shipping__form__selection
+    .shipping__form__select {
+    display: inherit;
+    column-gap: 3em;
+  }
+
+  .confirmOrder__wrapper
+    .confirmOrder__row__wrapper
+    .confirmOrder__column__wrapper
+    .shipping__form__selection
+    .shipping__form__btn {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .confirmOrder__wrapper
+    .confirmOrder__row__wrapper
+    .confirmOrder__column__wrapper {
+    min-height: 57.3vh;
+  }
+
+  .confirmOrder__wrapper
+    .confirmOrder__row__wrapper
+    .confirmOrder__column__wrapper
+    .shipping__form__selection
+    .shipping__form__select {
+    display: inherit;
+    column-gap: 3em;
+  }
+
+  .confirmOrder__wrapper
+    .confirmOrder__row__wrapper
+    .confirmOrder__column__wrapper
+    .shipping__form__selection
+    .shipping__form__btn {
+    width: 30%;
+  }
+}

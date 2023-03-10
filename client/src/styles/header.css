@@ -1,0 +1,48 @@
+:root {
+  --nav-bg: #f0803c;
+  --nav-hover: #e1dee9;
+}
+
+.nav__bar {
+  background-color: var(--nav-bg);
+  overflow: hidden;
+}
+
+.nav__bar .nav__wrapper {
+  overflow: hidden;
+}
+
+.nav__bar .row .nav__Set {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.nav-item {
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-item:hover {
+  color: var(--nav-hover);
+}
+
+@media screen and (max-width: 476px) {
+  .nav__bar .row .nav__Set {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .navbar-nav {
+    row-gap: 15px;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .nav__bar .row .nav__Set {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .navbar-nav {
+    row-gap: 15px;
+  }
+}

@@ -1,0 +1,107 @@
+:root {
+  --text-color: #303633;
+}
+
+.cart__item__wrapper {
+  overflow: hidden;
+  height: auto;
+}
+
+.cart__item__wrapper .item__row__wrapper {
+  overflow: inherit;
+  height: inherit;
+}
+
+.cart__item__wrapper .item__row__wrapper .item__col__wrapper {
+  height: max-content;
+  padding: 2em 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart__item__wrapper .item__row__wrapper .item__col__wrapper .bag__items {
+  overflow: inherit;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart__item__wrapper .item__row__wrapper .item__col__wrapper .bag__items img {
+  width: 200px;
+  height: auto;
+}
+
+.cart__item__wrapper .item__row__wrapper .item__col__wrapper .bag__items h4 {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.cart__item__wrapper .item__row__wrapper .item__col__wrapper .control__items {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+  justify-content: center;
+}
+
+.cart__item__wrapper
+  .item__row__wrapper
+  .item__col__wrapper
+  .control__items
+  .input__item__value {
+  width: 4vw;
+  text-align: center;
+  overflow-x: scroll;
+}
+
+@media screen and (max-width: 476px) {
+  .cart__wrapper .cart__row__wrapper .cart__heading {
+    padding: 1em 2em;
+    font-size: 2.5em;
+  }
+  .cart__wrapper .cart__row__wrapper .cart__wrapper__col {
+    padding: 2em 3em;
+  }
+
+  .cart__item__wrapper .item__row__wrapper .item__col__wrapper {
+    padding: 2em 3em;
+    flex-direction: column;
+  }
+
+  .cart__item__wrapper .item__row__wrapper .item__col__wrapper .bag__items {
+    padding: 1em;
+  }
+
+  .cart__item__wrapper .item__row__wrapper .item__col__wrapper .control__items {
+    padding: 1em;
+    justify-content: center;
+  }
+
+  .cart__item__wrapper
+    .item__row__wrapper
+    .item__col__wrapper
+    .control__items
+    .input__item__value {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .cart__item__wrapper
+    .item__row__wrapper
+    .item__col__wrapper
+    .control__items
+    .input__item__value {
+    width: 8.5vw;
+  }
+
+  .cart__item__wrapper .item__row__wrapper .item__col__wrapper {
+    flex-direction: column;
+  }
+
+  .cart__item__wrapper .item__row__wrapper .item__col__wrapper .bag__items {
+    padding: 1em;
+  }
+}

@@ -1,0 +1,58 @@
+:root {
+  --section-me: #303633;
+}
+
+.founder__container__wrapper {
+  overflow: hidden;
+}
+
+.founder__container__wrapper .founder__row__wrapper {
+  overflow: inherit;
+  height: 65vh;
+  background-color: var(--section-me);
+}
+
+.founder__container__wrapper .founder__row__wrapper .founder__picture__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 5em;
+}
+
+.founder__container__wrapper .founder__row__wrapper .founder__info__wrapper {
+  padding: 2em 5em;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.founder__container__wrapper
+  .founder__row__wrapper
+  .founder__info__wrapper
+  .card__food {
+  background-color: #f0803c;
+  color: white;
+}
+
+@media screen and (max-width: 476px) {
+  .founder__container__wrapper .founder__row__wrapper {
+    height: auto;
+  }
+
+  .founder__container__wrapper
+    .founder__row__wrapper
+    .founder__picture__wrapper {
+    padding: 2em 3em;
+  }
+
+  .founder__container__wrapper .founder__row__wrapper .founder__info__wrapper {
+    padding: 2em 3em;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .founder__container__wrapper .founder__row__wrapper {
+    height: auto;
+  }
+}
