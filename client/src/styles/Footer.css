@@ -1,0 +1,34 @@
+:root {
+  --nav-bg: #f0803c;
+  --nav-hover: #e1dee9;
+}
+
+footer {
+  overflow: hidden;
+  background-color: var(--nav-bg);
+  height: auto;
+}
+
+footer .footer__wrapper {
+  height: inherit;
+  overflow: inherit;
+}
+
+footer .footer__wrapper .footer__row {
+  padding: 2em 5em;
+}
+
+footer .footer__wrapper .footer__row .footer__box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  row-gap: 1em;
+}
+
+footer .footer__wrapper .footer__row .footer__box .footer__icon {
+  overflow: hidden;
+  font-size: 1.1em;
+  text-transform: capitalize;
+  font-weight: 500;
+}

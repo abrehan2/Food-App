@@ -1,0 +1,67 @@
+:root {
+  --text-color: #303633;
+}
+
+.form__wrapper {
+  overflow: hidden;
+  height: auto;
+  color: var(--text-color);
+}
+
+.form__wrapper .form__row__wrapper {
+  overflow: inherit;
+  height: inherit;
+}
+
+.form__wrapper .form__row__wrapper .form__col__wrapper {
+  padding: 2em 5em;
+  overflow: inherit;
+}
+
+.form__wrapper .form__row__wrapper .form__col__wrapper form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+  row-gap: 2em;
+  overflow: hidden;
+}
+
+.form__wrapper .form__row__wrapper .form__col__wrapper form .field {
+  overflow: hidden;
+  width: 25vw;
+}
+
+.form__wrapper
+  .form__row__wrapper
+  .form__col__wrapper
+  form
+  .button__wrapper
+  .btn__form {
+  width: 100%;
+}
+
+@media screen and (max-width: 476px) {
+  .form__wrapper .form__row__wrapper .form__col__wrapper {
+    padding: 2em 3em;
+  }
+
+  .form__wrapper .form__row__wrapper .form__col__wrapper form {
+    height: 80.3vh;
+  }
+
+  .form__wrapper .form__row__wrapper .form__col__wrapper form .field {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .form__wrapper .form__row__wrapper .form__col__wrapper form {
+    height: 80.3vh;
+  }
+
+  .form__wrapper .form__row__wrapper .form__col__wrapper form .field {
+    width: 75%;
+  }
+}

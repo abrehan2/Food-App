@@ -1,0 +1,165 @@
+:root {
+  --text-color: #303633;
+}
+
+.cart__wrapper {
+  overflow: hidden;
+  height: auto;
+  
+}
+
+.cart__wrapper .cart__row__wrapper {
+  height: auto;
+  overflow: hidden;
+}
+
+.cart__wrapper .cart__row__wrapper .cart__heading {
+  text-align: center;
+  height: max-content;
+  padding: 1em 3em;
+  font-size: 3em;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.cart__wrapper .cart__row__wrapper .cart__heading h3 {
+  color: var(--text-color);
+}
+
+.cart__wrapper .cart__row__wrapper .cart__wrapper__col {
+  display: flex;
+  row-gap: 2em;
+  padding: 2em 5em;
+  min-height: 52vh;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.cart__wrapper .cart__row__wrapper .cart__wrapper__col .total__billing__price {
+  width: 100%;
+  overflow: hidden;
+  padding: 2em 5em;
+  display: flex;
+  justify-content: center;
+  column-gap: 5em;
+}
+.cart__wrapper
+  .cart__row__wrapper
+  .cart__wrapper__col
+  .total__billing__price
+  div {
+  text-align: center;
+  overflow: inherit;
+  color: var(--text-color);
+}
+
+.cart__wrapper
+  .cart__row__wrapper
+  .cart__wrapper__col
+  .total__billing__price
+  div
+  h4 {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  font-weight: 500;
+}
+
+.cart__wrapper
+  .cart__row__wrapper
+  .cart__wrapper__col
+  .total__billing__price
+  div
+  p {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.cart__wrapper
+  .cart__row__wrapper
+  .cart__wrapper__col
+  .total__billing__price
+  .shipping__check {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.cart__wrapper
+  .cart__row__wrapper
+  .cart__wrapper__col
+  .total__billing__price
+  .shipping__check
+  .chakra__button {
+  border: 2px solid;
+  width: 60%;
+  padding: 1.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 476px) {
+  .cart__wrapper
+    .cart__row__wrapper
+    .cart__wrapper__col
+    .total__billing__price {
+    padding: 2em 3em;
+    flex-direction: column;
+    row-gap: 2em;
+    justify-content: center;
+  }
+
+  .cart__wrapper .cart__row__wrapper .cart__wrapper__col {
+    min-height: 64.3vh;
+  }
+
+  .cart__wrapper
+    .cart__row__wrapper
+    .cart__wrapper__col
+    .total__billing__price
+    .shipping__check {
+    justify-content: center;
+  }
+
+  .cart__wrapper
+    .cart__row__wrapper
+    .cart__wrapper__col
+    .total__billing__price
+    .shipping__check
+    .chakra__button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .cart__wrapper
+    .cart__row__wrapper
+    .cart__wrapper__col
+    .total__billing__price {
+    flex-direction: column;
+    row-gap: 2em;
+  }
+
+  .cart__wrapper
+    .cart__row__wrapper
+    .cart__wrapper__col
+    .total__billing__price
+    .shipping__check {
+    justify-content: center;
+  }
+
+  .cart__wrapper
+    .cart__row__wrapper
+    .cart__wrapper__col
+    .total__billing__price
+    .shipping__check
+    .chakra__button {
+    width: 100%;
+  }
+
+  .cart__wrapper .cart__row__wrapper .cart__wrapper__col {
+    min-height: 63.3vh;
+  }
+}

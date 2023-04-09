@@ -1,0 +1,98 @@
+:root {
+  --section-bg: #accbe1;
+}
+
+.container__wrapper {
+  overflow: hidden;
+}
+
+.container__wrapper .row__wrapper {
+  height: 90vh;
+  background-color: var(--section-bg);
+  overflow: hidden;
+}
+
+.container__wrapper .row__wrapper .wrapper__one {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 5em;
+}
+
+.container__wrapper .row__wrapper .wrapper__one .app__info .heading,
+.container__wrapper .row__wrapper .wrapper__one .app__info .heading__info {
+  overflow: hidden;
+}
+
+.container__wrapper .row__wrapper .wrapper__one .app__info .heading h3 {
+  font-size: 5em;
+  font-weight: 700;
+  color: white;
+}
+
+.container__wrapper .row__wrapper .wrapper__one .app__info .heading__info {
+  margin-bottom: 1em;
+}
+
+.container__wrapper .row__wrapper .wrapper__one .app__info .heading__info p {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: white;
+}
+
+.container__wrapper
+  .row__wrapper
+  .wrapper__one
+  .app__info
+  .heading__button
+  button {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.container__wrapper .row__wrapper .wrapper__two {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(20deg);
+  padding: 2em 5em;
+}
+
+@media screen and (max-width: 476px) {
+  .container__wrapper .row__wrapper {
+    height: 65.3vh;
+    background-color: #accbe1;
+  }
+
+  .container__wrapper .row__wrapper .wrapper__one {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2em 3em;
+  }
+
+  .container__wrapper .row__wrapper .wrapper__two {
+    padding: 2em 3em;
+  }
+
+  .container__wrapper .row__wrapper .wrapper__one .app__info .heading h3 {
+    font-size: 3em;
+  }
+
+  .container__wrapper .row__wrapper .wrapper__one .app__info .heading__info p {
+    font-size: 1.15em;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .container__wrapper .row__wrapper {
+    height: 85.3vh;
+  }
+
+  .container__wrapper .row__wrapper .wrapper__one {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2em 3em;
+  }
+}

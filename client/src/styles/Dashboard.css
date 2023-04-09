@@ -1,0 +1,89 @@
+:root {
+  --text-color: #303633;
+}
+
+.wrapper__dashboard {
+  overflow: hidden;
+  height: auto;
+  color: var(--text-color);
+}
+
+.wrapper__dashboard .dashboard__row {
+  overflow: inherit;
+  height: inherit;
+}
+
+.wrapper__dashboard .dashboard__row .dashboard__col {
+  padding: 2em 5em;
+  overflow: hidden;
+  min-height: 73.3vh;
+}
+
+.wrapper__dashboard .dashboard__row .dashboard__col .options__wrapper {
+  overflow: hidden;
+}
+
+.wrapper__dashboard .dashboard__row .dashboard__col .options__wrapper aside {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding: 1em;
+}
+.wrapper__dashboard
+  .dashboard__row
+  .dashboard__col
+  .options__wrapper
+  aside
+  .options__component {
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.wrapper__dashboard .dashboard__row .dashboard__col .chart__wrapper {
+  overflow: hidden;
+
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+@media screen and (max-width: 476px) {
+  .wrapper__dashboard .dashboard__row .dashboard__col {
+    padding: 2em 3em;
+    min-height: 78.2vh;
+  }
+
+  .wrapper__dashboard .dashboard__row .dashboard__col .options__wrapper aside {
+    justify-content: center;
+  }
+
+  element.style {
+    height: auto;
+    align-items: center;
+  }
+  .wrapper__dashboard .dashboard__row .dashboard__col .chart__wrapper {
+    height: 46vh;
+    align-items: center;
+  }
+
+  .css-1fes4xj{
+    font-size: 1.7em !important;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .wrapper__dashboard .dashboard__row .dashboard__col {
+    min-height: 78.2vh;
+  }
+
+  .wrapper__dashboard .dashboard__row .dashboard__col .options__wrapper aside {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,116 @@
+:root {
+  --text-color: #303633;
+}
+
+.shipping__wrapper__container {
+  overflow: hidden;
+  height: auto;
+}
+
+.shipping__wrapper__container .shipping__wrapper__row {
+  overflow: auto;
+  height: auto;
+}
+
+.shipping__wrapper__container
+  .shipping__wrapper__row
+  .shipping__wrapper__column {
+  overflow: inherit;
+  min-height: 73.3vh;
+  padding: 2em 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.shipping__wrapper__container
+  .shipping__wrapper__row
+  .shipping__wrapper__column
+  form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  flex-wrap: wrap;
+  row-gap: 4em;
+  overflow: hidden;
+}
+
+.shipping__wrapper__container
+  .shipping__wrapper__row
+  .shipping__wrapper__column
+  form
+  .shipping__field {
+  width: 25vw;
+}
+
+.shipping__wrapper__container
+  .shipping__wrapper__row
+  .shipping__wrapper__column
+  form
+  .submit__btn__wrapper {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.shipping__wrapper__container
+  .shipping__wrapper__row
+  .shipping__wrapper__column
+  form
+  .submit__btn__wrapper
+  .shipping__form__btn {
+  width: 12vw;
+}
+
+@media screen and (max-width: 476px) {
+  .shipping__wrapper__container
+    .shipping__wrapper__row
+    .shipping__wrapper__column {
+    padding: 2em 3em;
+     min-height: 78.1vh;
+  }
+
+  .shipping__wrapper__container
+    .shipping__wrapper__row
+    .shipping__wrapper__column
+    form {
+    flex-direction: column;
+    row-gap: 2em;
+  }
+
+  .shipping__wrapper__container
+    .shipping__wrapper__row
+    .shipping__wrapper__column
+    form
+    .shipping__field {
+    width: 100%;
+  }
+
+  .shipping__wrapper__container
+    .shipping__wrapper__row
+    .shipping__wrapper__column
+    form
+    .submit__btn__wrapper
+    .shipping__form__btn {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .shipping__wrapper__container
+    .shipping__wrapper__row
+    .shipping__wrapper__column {
+    min-height: 78.3vh;
+  }
+
+  .shipping__wrapper__container
+    .shipping__wrapper__row
+    .shipping__wrapper__column
+    form
+    .submit__btn__wrapper
+    .shipping__form__btn {
+    width: 25%;
+  }
+}

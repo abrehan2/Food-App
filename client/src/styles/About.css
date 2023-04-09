@@ -1,0 +1,41 @@
+:root {
+  --text-color: #303633;
+}
+
+.about__wrapper {
+  overflow: hidden;
+  height: auto;
+  background-color: #fefae0;
+  color: var(--text-color);
+}
+
+.about__wrapper .about__row {
+  overflow: inherit;
+  height: inherit;
+}
+
+.about__wrapper .about__row .about__col {
+  padding: 2em 5em;
+  min-height: 73.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__wrapper .about__row .about__col .card__about {
+  width: max-content;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 476px) {
+  .about__wrapper .about__row .about__col {
+    padding: 2em 3em;
+    min-height: 78.1vh;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .about__wrapper .about__row .about__col {
+    min-height: 78.3vh;
+  }
+}

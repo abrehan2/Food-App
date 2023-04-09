@@ -1,0 +1,34 @@
+.login__wrapper {
+  overflow: hidden;
+  min-height: auto;
+}
+
+.login__wrapper .login__wrapper__row {
+  overflow: inherit;
+  min-height: inherit;
+}
+
+.login__wrapper .login__wrapper__row .login__wrapper__col {
+  overflow: hidden;
+  min-height: 73.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 5em;
+}
+
+.login__wrapper .login__wrapper__row .login__wrapper__col .login__btn {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 476px) {
+  .login__wrapper .login__wrapper__row .login__wrapper__col {
+    min-height: 78.1vh;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .login__wrapper .login__wrapper__row .login__wrapper__col {
+    min-height: 78.3vh;
+  }
+}

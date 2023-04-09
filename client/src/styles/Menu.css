@@ -1,0 +1,59 @@
+:root {
+  --section-menu-bg: #e9edde;
+  --color: #303633;
+}
+
+.menu__wrapper {
+  overflow: hidden;
+  background-color: var(--section-menu-bg);
+  height: auto;
+}
+
+.menu__wrapper .menu__row__wrapper {
+  overflow: hidden;
+  height: inherit;
+}
+
+.menu__wrapper .menu__row__wrapper .menu__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 2em;
+  padding: 2em 5em;
+  height: auto;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.menu__wrapper .menu__row__wrapper .menu__heading {
+  text-align: center;
+  height: min-content;
+  padding: 1em 3em;
+  font-size: 3em;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.menu__wrapper .menu__row__wrapper .menu__heading h3 {
+  color: var(--color);
+}
+
+.fa-cookie-bite {
+  color: #db995a;
+}
+
+@media screen and (max-width: 476px) {
+  .menu__wrapper .menu__row__wrapper .menu__heading {
+    font-size: 2.5em;
+  }
+
+  .menu__wrapper .menu__row__wrapper .menu__card {
+    padding: 2em 3em;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .menu__wrapper .menu__row__wrapper .menu__card {
+    justify-content: center;
+  }
+}
