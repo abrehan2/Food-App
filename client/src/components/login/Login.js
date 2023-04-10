@@ -8,7 +8,7 @@ import { server } from "../../redux/store";
 
 const Login = () => {
   const loginHandler = () => {
-    window.open(`http://localhost:4000/foodApp/google/auth`, "_self");
+    window.open(`${server}/google/auth`, "_self");
   };
 
   return (
