@@ -16,5 +16,5 @@ const store = configureStore({
   },
 });
 
-export const server = `http://localhost:4000/foodApp`;
+export const server = `http://food-h0zwh2v04-abrehan2.vercel.app/foodApp`;
 export default store;
