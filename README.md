@@ -28,7 +28,6 @@
 </ol>
 
 # Install Dependencies
-
 <b>`Front-end: cd client --> npm install`</b> <br><br>
 <b>`Back-end: cd server --> npm install`</b>
 
@@ -56,4 +55,3 @@
 
 # Author
 <b>Abdul Rehan Najam - You guys can contact me through LinkedIn in case of any queries [click here](https://in.linkedin.com/in/abrehan)</b>
-
