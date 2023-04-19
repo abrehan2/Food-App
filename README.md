@@ -5,12 +5,10 @@
 <b>The following aspects are the primary focus of the project:</b>
 <ol>
 <b>
-<li>Google authentication</li>
-<li>Order food</li>
-<li>Add to cart</li>
-<li>Shipping details</li>
-<li>Payment method</li>
-<li>Contact us and real-time email response</li></b>
+<li>Integrated a payment method using Braintree</li>
+<li>Incorporated passport-oauth to enable users to sign up via Google</li>
+<li>Generates real-time email responses based on the customer feedback</li>
+</b>
 </ol>
 
 # Project Prerequisites
