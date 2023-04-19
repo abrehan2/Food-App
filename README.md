@@ -1,6 +1,5 @@
 # Food-App
-<b>Greetings, fellow developers! It has been a month since I began developing a custom web-based food application using the MERN stack, incorporating recommended industrial practices.
-</b>
+<b>Greetings, fellow developers: I have designed an interactive web app incorporating recommended industrial practices to sell burgers. I have not focused much on the UI; rather, the sole purpose was to incorporate various functionalities.</b>
 
 # Project Overview
 <b>The following aspects are the primary focus of the project:</b>
