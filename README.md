@@ -50,8 +50,7 @@
 </b>
 </ol>
 
-# Project Demonstration
-https://github.com/abrehan2/Food-App/assets/100872683/c6187c5a-5944-42fd-9d20-37dd2e77da68
+<br>
 
 <div align="center">
 <h3>Show some ❤️ by starring the repository!</h3>
