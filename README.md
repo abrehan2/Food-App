@@ -1,57 +1,85 @@
-# Food-App
-<b>Greetings, fellow developers! I have designed an interactive web app incorporating recommended industrial practices to sell burgers. I have not focused much on the UI; rather, the sole purpose was to incorporate various functionalities.</b>
-
-# Project Overview
-<b>The following aspects are the primary focus of the project:</b>
-<ol>
-<b>
-<li>Integrated a payment method using Braintree</li>
-<li>Incorporated passport-oauth to enable users to sign up via Google</li>
-<li>Generates real-time email responses based on the customer feedback</li>
-</b>
-</ol>
-
-# Project Prerequisites
-<ol>
-<b>
-<li>React.js</li>
-<li>Chakra UI</li>
-<li>Chart.js</li>
-<li>Node.js</li>
-<li>Express.js</li>
-<li>MongoDB</li>
-<li>REST API</li>
-</b>
-</ol>
-
-# Install Dependencies
-<b>`Front-end: cd client --> npm install`</b> <br><br>
-<b>`Back-end: cd server --> npm install`</b>
-
-# Environment Variables
-<b>Please make sure to create a `config.env` file in the `config` directory at the back-end and incorporate the following variables:</b>
-<ol>
-<b>
-<li>PORT</li>
-<li>MONGO_URI</li>
-<li>GOOGLE_CLIENT_ID</li>
-<li>GOOGLE_CLIENT_SECRET</li>
-<li>GOOGLE_CALLBACK_URL</li>
-<li>FRONTEND_URL</li>
-<li>SESSION_SECRET</li>
-<li>MERCHANT_ID</li>
-<li>PUBLIC_KEY</li>
-<li>PRIVATE_KEY</li>
-<li>SMPT_SERVICE</li>
-<li>SMPT_MAIL</li>
-<li>SMPT_PASSWORD</li>
-<li>SMPT_HOST</li>
-<li>SMPT_PORT</li>
-</b>
-</ol>
-
-<br>
-
 <div align="center">
-<h3>Show some ❤️ by starring the repository!</h3>
+<img src="https://img.shields.io/badge/-React.js-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React.js" />
+<img src="https://img.shields.io/badge/-Chakra%20UI-black?style=for-the-badge&logoColor=white&logo=chakraui&color=319795" alt="Chakra UI" />
+<img src="https://img.shields.io/badge/-Chart.js-black?style=for-the-badge&logoColor=white&logo=chartdotjs&color=FF6384" alt="Chart.js" />
+<img src="https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logoColor=white&logo=nodedotjs&color=339933" alt="Node.js" />
+<img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="MongoDB" />
 </div>
+
+## <a name="table">Table of Contents</a>
+
+1. [Introduction](#introduction)
+2. [Quick Start](#quick-start)
+
+## <a name="introduction">Introduction</a>
+
+**Greetings, fellow developers!**
+
+Food-App is an interactive web application designed with recommended industrial practices for selling burgers. While the UI is kept minimal, the primary focus is on incorporating diverse functionalities:
+
+- Integrated a payment method using **Braintree**
+- Incorporated **passport-oauth** for Google sign-up functionality
+- Generates **real-time** email responses based on customer feedback
+
+## <a name="quick-start">Quick Start</a>
+
+### **Cloning the Repository**
+
+```bash
+git clone https://github.com/abrehan2/food-app.git
+cd food-app
+```
+
+### **Installation**
+
+**Front-end**
+
+```bash
+cd client
+npm install
+```
+
+**Back-end**
+
+```bash
+cd server
+npm install
+```
+
+### **Environment Variables**
+
+Create a `config.env` file in the `config` directory at the back-end and add the following variables:
+
+```env
+PORT=
+MONGO_URI=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GOOGLE_CALLBACK_URL=
+FRONTEND_URL=
+SESSION_SECRET=
+MERCHANT_ID=
+PUBLIC_KEY=
+PRIVATE_KEY=
+SMPT_SERVICE=
+SMPT_MAIL=
+SMPT_PASSWORD=
+SMPT_HOST=
+SMPT_PORT=
+```
+
+### **Running the Project**
+
+**Front-end**
+
+```bash
+npm run start
+```
+
+**Back-end**
+
+```bash
+npm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to view the application.
